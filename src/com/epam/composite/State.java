@@ -1,3 +1,5 @@
+package com.epam.composite;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -52,7 +54,7 @@ public class State extends AdministrativeUnit implements Democracy {
 
     @Override
     public String toString() {
-        return "State{" +
+        return "com.epam.composite.State{" +
                 "name='" + name + '\'' +
                 '}';
     }

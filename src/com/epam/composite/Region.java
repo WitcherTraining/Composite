@@ -1,3 +1,5 @@
+package com.epam.composite;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -55,7 +57,7 @@ public class Region extends State implements Democracy {
 
     @Override
     public String toString() {
-        return "Region{" +
+        return "com.epam.composite.Region{" +
                 "name='" + name + '\'' +
                 ", population=" + population +
                 '}';

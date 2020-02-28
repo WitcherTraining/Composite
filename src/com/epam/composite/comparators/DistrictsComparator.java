@@ -1,3 +1,7 @@
+package com.epam.composite.comparators;
+
+import com.epam.composite.District;
+
 import java.util.Comparator;
 
 public class DistrictsComparator implements Comparator<District> {

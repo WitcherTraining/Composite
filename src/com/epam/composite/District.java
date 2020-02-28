@@ -1,5 +1,8 @@
+package com.epam.composite;
+
+import com.epam.composite.comparators.DistrictsComparator;
+
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class District extends Region implements Democracy {
@@ -86,7 +89,7 @@ public class District extends Region implements Democracy {
 
     @Override
     public String toString() {
-        return "District{" +
+        return "com.epam.composite.District{" +
                 "name='" + name + '\'' +
                 ", population=" + population +
                 ", telephoneCode=" + telephoneCode +

@@ -1,3 +1,5 @@
+package com.epam.composite;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -71,7 +73,7 @@ public class City extends District implements Democracy {
 
     @Override
     public String toString() {
-        return "City{" +
+        return "com.epam.composite.City{" +
                 "name='" + name + '\'' +
                 ", population=" + population +
                 ", telephoneCode=" + telephoneCode +
